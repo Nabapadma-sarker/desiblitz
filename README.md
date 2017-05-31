@@ -1,7 +1,7 @@
 wordpress Theme
 =====================
 
-it is a uropean magazine wordpress theme. I made most of section of this project.
+it is a European magazine wordpress theme. I made most of section of this project.
 
 here used so many features --
 
