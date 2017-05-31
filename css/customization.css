@@ -1,0 +1,232 @@
+
+/**************
+Setting for Desktop devices starts here 
+***************/
+/*.homePage_grid.sub_cat_link {
+	text-align: right;
+}*/
+.section-title {
+	text-align: left !important;
+}
+.left-column-content  .widget.popular-posts h2.widgettitle{
+	text-align: center !important;
+}
+footer.sport-bg {
+	background: #C76325 !important;
+}
+.row.flex.posts-box {
+	border-bottom: none;
+}
+
+/**************
+Setting for 320 devices starts here 
+***************/
+@media screen and (max-width: 320px) {
+.homePage_grid.sub_cat_link {
+	margin-bottom: 0px !important;
+    width: auto;
+}
+/* this will be test when live */
+.posts-box ul li h5 a.anchor {
+	/* padding-left: 54px; */
+	margin-left: 15px;
+	padding-left: 0;
+}
+.posts-box ul li h5 a.anchor {
+	overflow: visible !important;
+}
+section.row.flex > .col-1 {
+	border-bottom: none;
+}
+section.row.flex > .col-1 {
+	margin: 0 0 1em 0;
+}
+/* this will be test when live */
+.posts-box .go-to-share.less-spacing {
+	display: none;
+}
+}
+
+/**************
+Setting for 360 devices starts here 
+***************/
+@media screen and (min-width:321px) and (max-width: 360px) {
+.homePage_grid.sub_cat_link {
+	margin-bottom: 0px !important;
+}
+.home-reads-list.latest-posts-group li {
+	padding-bottom: 20px !important;
+}
+}
+
+/**************
+Setting for 480 devices starts here 
+***************/
+@media screen and (min-width:361px) and (max-width: 480px) {
+.homePage_grid.sub_cat_link {
+	margin-bottom: 0px !important;
+}
+.home-reads-list.latest-posts-group li {
+	padding-bottom: 10px !important;
+}
+.home-right-posts.fashion-bg {
+	padding-bottom: 20px !important;
+}
+article.trend-overlay.flex figcaption {
+	bottom: -8px!important;
+}
+.home-banner-element ul li {
+	display: flex;
+}
+}
+
+/**************
+Setting for 640 devices starts here 
+***************/
+@media screen and (min-width:481px) and (max-width: 640px) {
+.homePage_grid.sub_cat_link {
+	margin-bottom: -9px !important;
+}
+.home-reads-list.latest-posts-group li {
+	padding-bottom: 10px !important;
+}
+.home-right-posts.fashion-bg {
+	padding-bottom: 20px !important;
+}
+article.trend-overlay.flex figcaption {
+	bottom: -9px!important;
+}
+.home-banner-element ul li {
+	display: flex;
+}
+}
+
+/**************
+Setting for 768 to 1024 devices starts here 
+***************/
+@media screen and (min-width:768px) and (max-width: 1024px) {
+.home-banner-element {
+	margin-bottom: 35px !important;
+}
+.posts-box ul li img {
+	height: auto !important;
+	width: 100%;
+	min-height: auto !important;
+}
+section.row.flex > .col-1 {
+	border-bottom: none;
+}
+section.row.flex > .col-1 {
+	margin: 0 0 1em 0;
+}
+/* this will be test when live */
+.posts-box .go-to-share.less-spacing {
+	display: none;
+}
+}
+
+/**************
+Setting for 320 to 1024 devices starts here 
+***************/
+@media screen and (min-width:320px) and (max-width: 1024px) {
+.home-banner-element {
+	margin-bottom: 0 !important;
+}
+.home-banner-element .title-wrapper {
+	margin-bottom: 35px !important;
+}
+}
+
+/**************
+Setting for 320 to 640 devices starts here 
+***************/
+@media screen and (min-width:320px) and (max-width: 640px) {
+.home-reads-list.latest-posts-group li {
+	margin-bottom: 20px !important;
+}
+.home-reads-list.latest-posts-group li:last-child {
+	margin-bottom: 0 !important;
+}
+.home-banner-element .home-reads-list.latest-posts-group:nth-of-type(1) {
+	margin-bottom: 20px;
+}
+.home-reads-list.latest-posts-group li .post-thum-bax {
+	margin-bottom: 10px;
+}
+.home-banner-element ul:nth-child(2) li {
+	padding-bottom: 15px;
+}
+img.attachment-trending-thumb.size-trending-thumb.wp-post-image {
+	min-height: 50px;
+}
+.trend-overlay figure {
+	height: auto;
+}
+article.trend-overlay.flex figcaption {
+	bottom: 8px!important;
+}
+}
+
+/**************
+Setting for 640px
+***************/
+@media screen and (max-width: 640px) {
+.videoCube {
+	width: 43% !important;
+}
+.singlethum-post .post-fig .featured-post-widget .post-fig p.category {
+	position: relative !important;
+	bottom: 40px !important;
+}
+
+}
+.home-reads-list.latest-posts-group li  .figure.quick-read {
+	margin-bottom: 0 !important;
+}
+
+/*
+You can add your own CSS here.
+
+Click the help icon above to learn more.
+*/
+
+.single-post-page .news > div:nth-child(1) > figure:nth-child(1) > figcaption:nth-child(2){
+   background: #3266CC;
+}
+
+/*
+Setting for 481px
+*/
+.trend-overlay figure figcaption {
+    width: auto;
+}
+
+@media screen and (max-width: 481px){
+.videoCube{
+  margin: 0px 2px 12px 0px !important;
+  padding-left: 15px !important;
+}
+.thumbnails-a .videoCube .video-label-box .video-title {
+    padding: 0px 7px;
+	font: 16px madras_regular, sans-serif;
+}
+.organic-thumbnails-a .videoCube .video-label-box .video-title {
+    padding: 0px 7px;
+	font: 16px madras_regular, sans-serif;
+}
+.trc_elastic .thumbnails-a .video-label-box {
+    height: auto !important;
+}
+.organic-thumbnails-a .videoCube .video-label-box{
+   min-height: 86px !important;
+}
+.trend-overlay figure figcaption {
+	margin-bottom: -20px;
+}
+#trendingList.new-post-list > ul > li {
+    padding-bottom: 25px !important;
+}
+#trendingList.new-post-list > ul > li.competitions-bg{
+    padding-bottom: 7px !important;
+}
+}
